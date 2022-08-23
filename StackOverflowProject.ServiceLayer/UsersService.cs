@@ -24,7 +24,7 @@ namespace StackOverflowProject.ServiceLayer
     {
         IUsersRepository ur;
 
-        public UsersService()
+        public UsersService() 
         {
             ur = new UsersRepository();
         }
